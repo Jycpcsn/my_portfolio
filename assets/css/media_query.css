@@ -1,0 +1,62 @@
+@media only screen and (max-width: 500px) {
+
+    /* for header */
+    header nav ul {
+        display: none;
+    }
+
+    header nav .hamburger_btn {
+        display: block;
+    }
+
+    /* for header */
+}
+
+
+@media only screen and (max-width: 900px) {
+
+    /* main */
+    main section {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    main section div {
+        width: 100%;
+        padding: 30px;
+    }
+
+
+    main section div:first-child h1 {
+        font-size: 5rem;
+        font-weight: 900;
+        font-family: "Poetsen One", sans-serif;
+    }
+
+    main section div:first-child h1 span {
+        color: var(--primary);
+        font-family: "Poetsen One", sans-serif;
+    }
+
+    main section div:first-child p {
+        width: 100%;
+        font-family: "Briem Hand", cursive;
+        font-size: 20px;
+
+    }
+
+    main section div:last-child img {
+        width: 100%;
+    }
+
+    main section  .icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        gap: 20px;
+    }
+
+    /* main */
+}

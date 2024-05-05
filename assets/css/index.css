@@ -1,0 +1,65 @@
+@import url('global.css');
+
+main section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+main section div {
+    width: calc(100%/2);
+    padding: 30px;
+}
+
+
+main section div:first-child h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    font-family: "Poetsen One", sans-serif;
+}
+
+main section div:first-child h1 span {
+    color: var(--primary);
+    font-family: "Poetsen One", sans-serif;
+}
+
+main section div:first-child p {
+    width: calc(100%/2);
+    font-family: "Briem Hand", cursive;
+    font-size: 20px;
+    
+}
+
+main section  .icons {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+main section  .icons .icon {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(48, 42, 34, 0.753);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+main section  .icons .icon:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+}
+
+
+main section div:last-child img {
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
