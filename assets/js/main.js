@@ -18,7 +18,7 @@ window.addEventListener('resize', () => {
 });
 
 const circles = $('.circles')
-for(let i = 0; i < 100; i++) {
+for(let i = 0; i < 10; i++) {
     let li = document.createElement('li')
     circles.appendChild(li)
 }
