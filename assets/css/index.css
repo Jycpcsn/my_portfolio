@@ -15,7 +15,7 @@ main section div {
 
 
 main section div:first-child h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 900;
     font-family: "Poetsen One", sans-serif;
 }
