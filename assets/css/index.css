@@ -26,7 +26,6 @@ main section div:first-child h1 span {
 }
 
 main section div:first-child p {
-    width: calc(100%/2);
     font-family: "Briem Hand", cursive;
     font-size: 20px;
     
