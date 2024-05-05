@@ -16,3 +16,9 @@ window.addEventListener('resize', () => {
         side_bar.style.right = '-120px'
     }
 });
+
+const circles = $('.circles')
+for(let i = 0; i < 100; i++) {
+    let li = document.createElement('li')
+    circles.appendChild(li)
+}
