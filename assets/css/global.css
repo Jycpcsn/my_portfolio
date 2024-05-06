@@ -4,6 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+
 :root {
     --primary: rgba(224, 43, 43, 0.918);
     --secondary: rgb(1, 5, 17);
@@ -48,14 +51,23 @@ header {
 }
 
 header h1 {
-    font-size: 20px;
-    font-weight: 900;
+    font-size: 17px;
+    font-weight: 100;
     color: var(--third);
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 2px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transform: skewX(-20deg);
+    box-shadow: inset -2px 0px 10px rgba(224, 43, 43, 0.918);
+    display: inline-block;
+    text-align: center;
 }
 
+
 header h1 span {
-    font-weight: 900;
     color: var(--primary);
+    font-family: "Orbitron", sans-serif;
 }
 
 header nav {
@@ -92,11 +104,16 @@ header nav ul li {
 header nav ul li a {
     text-decoration: none;
     color: var(--third);
-    font-size: 15px;
-    font-weight: 200;
+    font-size: 13px;
+    font-weight: 100;
     transition: 0.3s;
-    padding: 5px 10px;
-    border-radius: 5px;
+    padding: 5px;
+    border-radius: 3px;
+    display: block;
+    transform: skewX(-20deg);
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 2px;
+    border: 1px solid white;
 }
 
 header nav ul li a:hover {
@@ -106,8 +123,9 @@ header nav ul li a:hover {
 }
 
 header nav ul li a.active {
-    background-color: var(--primary);
+    /* background-color: var(--primary); */
     color: var(--third);
+    box-shadow: inset -2px 0px 10px rgba(224, 43, 43, 0.918);
 }
 
 /* end header */
@@ -133,11 +151,16 @@ header nav ul li a.active {
 .side_bar a {
     text-decoration: none;
     color: var(--third);
-    font-size: 15px;
-    font-weight: 200;
+    font-size: 13px;
+    font-weight: 100;
     transition: 0.3s;
-    padding: 5px 10px;
-    border-radius: 5px;
+    padding: 5px;
+    border-radius: 3px;
+    display: block;
+    transform: skewX(-20deg);
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 2px;
+    border: 1px solid white;
 }
 
 .side_bar li a:hover {
