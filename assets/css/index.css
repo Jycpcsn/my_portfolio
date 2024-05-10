@@ -14,7 +14,44 @@ main section div {
 }
 
 
-main section div:first-child h1 {
+main section div form {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+main section div form:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.541);
+}
+
+main section div form input, main section div form textarea  {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 0 20px;
+    height: 50px;
+    margin: 10px 0;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+}
+main section div form input[type='submit']  {
+    width: 100%;
+    background-color: rgba(146, 28, 28, 0.568);
+    padding: 0 20px;
+    height: 50px;
+    margin: 10px 0;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+main section div form input:hover,textarea:hover  {
+    border: 1px solid white;
+}
+
+
+main section div:first-child h1, main section div:last-child h1 {
     font-size: 4rem;
     font-weight: 900;
     font-family: "Poetsen One", sans-serif;
@@ -25,7 +62,7 @@ main section div:first-child h1 span {
     font-family: "Poetsen One", sans-serif;
 }
 
-main section div:first-child p {
+main section div:first-child p, main section div:last-child p {
     font-family: "Briem Hand", cursive;
     font-size: 20px;
     
@@ -54,7 +91,7 @@ main section  .icons .icon:hover {
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
 }
 
-main section div:last-child img {
+main section div:last-child img, main section div:first-child img {
     width: 100%;
     height: 500px;
     border-radius: 15px;
