@@ -63,7 +63,7 @@ main section div:first-child h1 span {
 }
 
 main section div:first-child p, main section div:last-child p {
-    font-family: "Briem Hand", cursive;
+    font-family: "Poppins", sans-serif;
     font-size: 20px;
     
 }
